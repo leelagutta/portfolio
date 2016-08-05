@@ -1,0 +1,113 @@
+#navigation {
+  padding-top: 10vh;
+}
+
+#menu {
+   display: block;
+   width: 30vw;
+   height: 100vh;
+   top: 0;
+   z-index: 9999;
+   position:fixed;
+   left: 85vw;
+   background-color: black;
+   opacity: 0.9;
+   text-transform: uppercase;
+}
+
+/* Pushing the Menu off the canves */
+#menu {
+   left: 100vw; 
+    -webkit-transition: left 1s;
+    transition: left 1s;  
+}
+
+#nav1{
+  padding-top: 20vh;
+}
+
+#menu ul {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+}
+
+#menu ul li {
+  text-align: center;
+  font-size:16px;
+   /*border-bottom: 1px solid black;*/
+}
+
+#menu ul li a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color:white;
+}
+  
+#menu ul li a:hover,
+#menu ul ul li a {
+   padding: 10px 10px 10px 30px;
+   /*background-color: pink;*/
+}
+
+#menu ul li a:hover{
+  background-color: grey;
+}
+ 
+#menu ul ul li a:hover {
+   padding: 10px 10px 10px 60px;
+}
+ 
+#menu ul li a,
+#menu ul li a:hover,
+#menu ul ul li a,
+#menu ul ul li a:hover {
+    -webkit-transition: padding 0.5s; /* Safari 3.1 to 6.0 */
+    transition: padding 0.5s;
+}
+
+.toggle {
+   top: 5vh;
+   right: 35vw; 
+   padding:10px;
+   position: absolute;
+}
+
+#toggle{
+   display: none;
+}
+
+/*showing the menu then the Checkbox is checked */
+#toggle:checked + #menu {
+   left: 70vw;
+    -webkit-transition: left 1s;   
+    transition: left 1s;
+}
+
+
+#submenu ul li {
+  text-align: center;
+  font-size:19px;
+  /*border-bottom: 1px solid white;*/
+}
+
+.dropdown{
+  background-color: black;
+ }
+
+.dropdown li{
+   font-size:14px !important;
+   font-style: italic !important;
+}
+
+/* Hiding the checkboxes so only the labels are visible */
+input[id^="dropdown"],
+ul[class^="dropdown"] {
+   display: none;
+}
+ 
+input[id^="dropdown"]:checked + ul[class^="dropdown"] {
+   height: auto;
+   display: block;
+}

@@ -1,0 +1,127 @@
+/*Font style*/
+
+h1,h2,h3,h4{font-family: 'BebasNeueBold', sans-serif;}
+
+p{font-family: "callunaRegular";font-size: 150%;}
+li{font-family: "callunaRegular";}
+h1{font-size: 350%}
+h2{font-size: 200%;}
+h3{font-size: 150%;}
+h4{font-size: 135%;}
+ul li{font-size: 120%}
+
+/* Spacing after headings and para's */
+.spacing h1{padding-bottom: 10vh;}
+.spacing p,
+.spacing h2,
+.spacing h4{padding-bottom: 3vh;}
+.spacing h3{padding-top: 3vh;}
+
+
+/* Styling for headings */
+.heading-style h1,
+.heading-style h4,
+.heading-style p{text-align: center;}
+.heading-style{padding-bottom: 5vh;}
+.header-margin h1{
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+}
+
+/*default col-6 styling*/
+.col-6-styling{
+height: 70vh;
+text-align: center;
+border: 1px solid lightgrey;}
+.col-6-styling p{padding-bottom: 1vh !important;}
+.col-6-styling h2{padding: 3vh 0vh 3vh 0vh;}
+
+/*------skin-------*/
+.skin-one{
+  background-color: #1A1E23;
+  color: #F3F5F6;
+  text-align: center;
+}
+
+.skin-two{
+  background-color: white;
+  color: black;
+}
+
+.skin-three{
+  background-color: #F4F6F7;
+  color: black;
+}
+
+.italic {
+  padding-top: 4vh;
+  font-size: 145%;
+  color: grey;
+  font-family: "callunaitalic"!important;
+}
+
+.feature-style p{
+font-family: "callunaRegular"!important;
+font-size: 120%!important;
+color: black !important;}
+
+.feature-style{text-align: center;
+  height: 35vh;
+  border-bottom: 1px solid lightgrey!important;
+  padding-bottom: 10vh 0vh 10vh 0vh!important;
+}
+
+
+/*----------------------screen ranging from 320px to 699px----------------------------------*/
+
+@media (min-width: 320px) and (max-width: 699px) { 
+.col-6-styling{height: 80vh;}
+section#intro_section h1{font-size: 400%;}
+.content-padding{padding: 10vh 5vw 10vh 5vw;}
+}
+
+/*----------------------screen ranging from 700px to 1023Px----------------------------------*/
+@media (min-width: 700px) and (max-width: 1023px) {
+h1{font-size: 250%;}
+h2{font-size: 180%;}
+h3{font-size: 150%;}
+h4{font-size: 120%;}
+#intro_section h1{font-size: 500%;}
+.content-padding{padding: 15vh 10vw 15vh 10vw;}
+}
+
+/*----------------------screen ranging from 1024 to 1600px----------------------------------*/
+@media (min-width: 1024px) and (max-width: 1600px) { 
+h1{font-size: 250%}
+h2{font-size: 200%;}
+h3{font-size: 160%;}
+h4{font-size: 135%;}
+#intro_section h1{font-size: 600%!important;}
+.spacing h1{padding-bottom: 2vh;}
+.content-padding{padding: 20vh 15vw 20vh 15vw;}
+}
+
+/*----------------------screen with width more than 1600px----------------------------------*/
+@media (min-width: 1601px) { 
+  .content-padding{padding: 20vh 20vw 20vh 20vw;}
+  section#intro_section h1{font-size: 600%!important;}
+}
+
+@font-face {
+    font-family: callunaRegular;
+    src: url(../fonts/CallunaRegular.otf);
+}
+
+@font-face {
+    font-family: callunaitalic;
+    src: url(../fonts/Calluna.otf);
+}
+
+@font-face {
+    font-family: BebasNeueRegular;
+    src: url(../fonts/BebasNeueRegular.otf);
+}
+@font-face {
+    font-family: BebasNeueBold;
+    src: url(../fonts/BebasNeueBold.otf);
+}

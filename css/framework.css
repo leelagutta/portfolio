@@ -1,0 +1,97 @@
+body{
+    margin:0;
+}
+
+/*with border-box padding and margin are included in the width*/ 
+*{
+    -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.grid-container{
+        width: 100%; 
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+/*-- our cleafix hack -- */ 
+.row:before, 
+.row:after {
+  content:"";
+  display: table ;
+  clear:both;
+}
+
+[class*='col-'] {
+    float: left; 
+    min-height: 1px; 
+    /*-- gutter -- */
+    padding: 12px; 
+}
+
+/*This gives the outline for an element. This is outside border*/
+.outline, .outline *{
+    outline: 1px solid #F6A1A1; 
+}
+
+/*-- some extra column content styling --*/
+[class*='col-'] > p { 
+  padding: 0;
+  margin: 0;
+  text-align: center; 
+  color: white; 
+}
+
+
+@media (min-width: 700px) and (max-width:1023px){
+ 
+.col-1 {width: 25%;}
+.col-2 {width: 33.33%;}
+.col-3 {width: 50%;}
+.col-4 {width: 50%;}
+.col-5 {width: 50%;}
+.col-6 {width: 50%;}
+.col-7 {width: 50%;}
+.col-8 {width: 50%;}
+.col-9 {width: 50%;}
+.col-10{width: 100%;}
+.col-11 {width: 100%;}
+.col-12 {width: 100%;}
+
+.row .col-4:last-of-type{width:50%;display: inline-block;float: left;
+     margin-left: 20vw;}
+.row .col-5 ~ .col-1{width: 100%; }
+.col-8 + .col-4{width: 50% !important;}
+.col-10 + .col-2{width: 100% !important;}
+.col-11 + .col-1{width: 100% !important;}
+}
+
+@media (min-width: 300px) and (max-width:699px){
+.col-1 {width: 33.33%;}
+.col-2 {width: 50%;}
+.col-3 {width: 100%;}
+.col-4 {width: 100%;}
+.col-5 {width: 100%;}
+.col-6 {width: 100%;}
+.col-7 {width: 100%;}
+.col-8 {width: 100%;}
+.col-9 {width: 100%;}
+.col-10{width: 100%;}
+.col-11 {width: 100%;}
+.col-12 {width: 100%;}
+.col-8 + .col-4{width: 100% !important;}
+
+}
+

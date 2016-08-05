@@ -1,0 +1,190 @@
+h1,h2,h3,h4{font-family: 'BebasNeueBold', sans-serif;}
+
+p{font-family: "callunaRegular";font-size: 150%;}
+h1{font-size: 350%}
+h2{font-size: 200%;}
+h3{font-size: 150%;}
+h4{font-size: 135%;}
+
+/* Spacing after headings and para's */
+.spacing p,
+.spacing h1,
+.spacing h2,
+.spacing h4{padding-bottom: 3vh;}
+.spacing h3{padding-top: 3vh;}
+
+/* Styling for headings */
+.heading-style h1,
+.heading-style h4,
+.heading-style p{text-align: center;}
+.heading-style{padding-bottom: 10vh;}
+
+/*default col-6 styling*/
+.col-6-height{height: 60vh;}
+.col-6 h2{padding: 3vh 0vh 1vh 0vh;}
+
+
+#intro_section p{color: lightgrey !important;}
+
+.persona-content {
+  text-align: center;
+}
+
+.persona-content div {
+  display: inline-block;
+  display: none;
+}
+
+section#persona img{width: 100%}
+
+.head{
+  text-align: center;
+}
+
+.skin-one{
+  background-color: #1A1E23;
+  color: #F3F5F6;
+  text-align: center;
+}
+
+.skin-two{
+  background-color: white;
+  color: black;
+}
+
+.skin-three{
+  background-color: #F4F6F7;
+  color: black;
+}
+
+.header-margin h1{
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+}
+
+.spacing h1{
+  padding-bottom: 10vh;
+}
+
+.italic {
+  padding-top: 4vh;
+  font-size: 145%;
+  color: grey;
+  font-family: "callunaitalic"!important;
+}
+
+#userInsights h1{
+  padding-bottom: 3vh !important;
+}
+
+/*-------------Media query between width 320px to 699,
+               for phones - portrait : greater than 320px and less than 699px--------------------------------*/
+@media (min-width: 320px) and (max-width: 699px) { 
+
+h1{font-size: 220%;}
+h2{font-size: 150%;}
+h3{font-size: 120%;}
+h4{font-size: 105%;}
+
+.content-padding{padding: 10vh 5vw 10vh 5vw;}
+
+section#intro_section h1{font-size: 400%;}
+
+section#discovery img{width: 100%;}
+section#scope img{width: 30%;}
+
+.col-6-height{
+  height: 80vh;
+  border-bottom: 0.5vw solid lightgrey;
+  margin-bottom: 10vh;}
+
+.col-4-height{height: 40vh;}
+.col-4-style{text-align: center;}
+
+}
+
+/*-------------Media query between width 700px to 1023,
+               for phones-landscape, Ipad portrait and lanscape : width greater than 700px and less than 1023px; -------*/
+@media (min-width: 700px) and (max-width: 1023px) {
+h1{font-size: 250%;}
+h2{font-size: 180%;}
+h3{font-size: 150%;}
+h4{font-size: 120%;}
+
+#intro_section h1{font-size: 500%;}
+
+.content-padding{padding: 15vh 10vw 15vh 10vw;}
+#discovery.content-padding{padding: 15vh 5vw 15vh 5vw;}
+
+section#discovery img{width: 80%;}
+section#scope img{width: 20%;}
+
+.col-6-height{height: 80vh;}
+.col-4-6{height: 40vh;}
+.col-4-style{text-align: center;border-bottom: 1px solid lightgrey;}
+
+}
+
+@media (min-width: 1024px) and (max-width: 1600px) { 
+
+h1{font-size: 250%}
+h2{font-size: 200%;}
+h3{font-size: 160%;}
+h4{font-size: 135%;}
+
+.spacing h1{padding-bottom: 2vh;}
+.content-padding{padding: 20vh 15vw 20vh 15vw;}
+
+#intro_section h1{font-size: 600%;}
+section#discovery img{width: 80%;}
+section#scope img{width: 20%;}
+
+.col-6-height{height: 80vh;}
+.col-4-height{height: 25vh;}
+.col-4-style{text-align: center;
+  border-bottom: 1px solid lightgrey;
+}
+
+}
+
+
+/*-------------Media query for above 1600px : width greater than 1601------------------------------*/
+@media (min-width: 1601px) {  
+
+.content-padding{padding: 20vh 20vw 20vh 20vw;}
+
+section#intro_section{height: 90vh;}
+section#intro_section h1{font-size: 600%; }
+
+section#discovery img{width: 80%;}
+section#scope img{width: 20%;}
+
+.col-4-height{height: 20vh;}
+.col-4-style{
+  border-bottom: 1px solid lightgrey;
+  text-align: center;
+}
+
+}
+
+@font-face {
+    font-family: callunaRegular;
+    src: url(../fonts/CallunaRegular.otf);
+}
+
+@font-face {
+    font-family: callunaitalic;
+    src: url(../fonts/Calluna.otf);
+}
+
+@font-face {
+    font-family: BebasNeueRegular;
+    src: url(../fonts/BebasNeueRegular.otf);
+}
+@font-face {
+    font-family: BebasNeueBold;
+    src: url(../fonts/BebasNeueBold.otf);
+}
+
+
+

@@ -1,0 +1,197 @@
+/*---------Letter Styling--------*/
+h1,h2,p,
+.container,
+#showcase
+{text-align: center;}
+
+h1{ font-family: "RalewayRegular";}
+h2{font-family: "BebasNeueRegular";}
+h3,h4{font-family: "BebasNeueRegular";}
+p{font-family: "callunaitalic";}
+
+p{font-size: 150%;}
+h1{font-size: 400%;}
+h2{font-size: 300%;}
+h3{font-size: 140%;}
+
+
+/*------------Spacing--------------*/
+.textspacingVertical {
+  padding: 10vh 0vw 10vh 0vw;
+}
+
+.textspacingHorizontal{
+  padding: 0vh 10vw 0vh 10vw;
+}
+
+.container {
+  width: 100%;
+  padding: 10vh;
+}
+
+/*---------Banner Styling---------*/
+section.banner-img-contain{
+  background-repeat:repeat;
+  background-size:contain;
+}
+        
+section.banner h1 {
+  font-size: 1000%;
+  line-height: 1;
+  text-transform: uppercase;
+  animation: FadeIn 2s;
+}
+
+section.banner h2{
+  line-height: 1;
+  text-transform: uppercase;
+  animation: FadeIn 2s;
+}
+
+section.banner-img {
+  background-image: url("../img/home/3.jpg");
+}
+
+section.banner-img2 {
+  background-image: url("../img/home/2.jpg");
+  height: 60vh;
+}
+
+/*--------------Text Spacing-----------------*/
+section#intro_section{
+  padding: 10vh 20vh 20vh 20vh;
+}
+
+section#intro_section h1{
+  padding-bottom: 5vh;
+  text-transform: uppercase;
+}
+
+section#showcase img{
+  height: 100%;
+  width: 100%;
+}
+
+
+
+/*-------------Media query between width 320px to 699,
+               for phones - portrait : greater than 320px and less than 699px--------------------------------*/
+@media (min-width: 320px) and (max-width: 699px) { 
+
+h1{font-size: 200%;}
+p{font-size: 120%;}
+
+section.banner {
+  padding-top: 40vh; 
+  height: 90vh;
+}
+
+section.banner h1 {
+  font-size: 500% !important;
+}
+
+.textspacingHorizontal{
+  padding-right: 1vw;
+  padding-left: 1vw;
+}
+
+.container{
+  padding-right: 2vw !important;
+  padding-left: 2vw !important;
+}
+
+section#showcase img{
+  height: 100%;
+  width: 50%;}
+}
+
+/*-------------Media query between width 700px to 1023,
+               for phones-landscape, Ipad portrait and lanscape : width greater than 700px and less than 1023px; -------*/
+@media (min-width: 700px) and (max-width: 1023px) {
+
+p{font-size: 135%;}
+
+section.banner {
+  padding-top: 40vh; 
+  height: 90vh;
+ }
+
+section#showcase img{
+  height: 90%;
+ }
+}
+
+/*-------------Media query between width 1024px to 
+                1200,for Laptops : width greater than 1024 and width less than 1600px------*/
+@media (min-width: 1024px) and (max-width: 1200px) { 
+
+section.banner {
+  padding-top: 40vh; 
+  height: 90vh;
+ }
+}
+
+/*-------------Media query between width 1201px to 
+                1600,for Laptops : width greater than 1024 and width less than 1600px------*/
+@media (min-width: 1201px) and (max-width: 1600px) { 
+
+section.banner {
+  padding-top: 35vh; 
+  height: 90vh;
+}
+
+.container{
+  padding-right: 10vw;
+  padding-left: 10vw;
+}
+
+}
+
+
+/*-------------Media query for above 1600px : width greater than 1601------------------------------*/
+@media (min-width: 1601px) { 
+
+section.banner {padding-top: 30vh; height: 65vh;}
+p{font-size: 165%;}
+section.banner h1 {font-size: 900%;}
+
+.container{padding: 10vh 20vh 10vh 20vh;}
+
+section#showcase img{
+  height: 70%;
+}
+}
+
+
+/*-------------------Animations-----------------*/
+
+@-webkit-keyframes FadeIn{
+
+from{
+  opacity: 0;
+}
+to{
+  opacity: 1;
+}
+
+}
+
+/*-------------------Fonts-----------------*/
+@font-face {
+    font-family: callunaRegular;
+    src: url(../fonts/CallunaRegular.otf);
+}
+
+@font-face {
+    font-family: callunaitalic;
+    src: url(../fonts/Calluna.otf);
+}
+@font-face {
+    font-family: BebasNeueRegular;
+    src: url(../fonts/BebasNeueRegular.otf);
+}
+@font-face {
+    font-family: RalewayRegular;
+    src: url(../fonts/RalewayRegular.ttf);
+}
+

@@ -1,0 +1,103 @@
+#intro_section p{color: lightgrey !important;}
+
+.persona-container {
+  text-align: center;
+}
+
+.persona-container div {
+  display: inline-block;
+  display: none;
+}
+
+#userPersona{
+  height: auto;
+}
+
+#userInsights h1{
+  padding-bottom: 3vh !important;
+}
+
+.persona-taskly-styling{
+  height: 50vh;
+  text-align: center;
+}
+
+ #sitemap h4{
+ 	text-align: center;
+ }
+
+ #sitemap{
+ 	padding-top: 10vh;
+ }
+#sitemap h1{
+	text-align: center;
+	padding: 0vh 15vw 3vh 15vw;
+}
+
+#sitemap p{
+	text-align: center;
+	padding: 5vh 15vw 10vh 15vw;
+}
+
+#sitemap img{
+padding-bottom: 20vh;
+	width: 100%;	
+}
+
+.image-styling{width: 100%;height: 100%;}
+
+div.marketPanel,
+div.productPanel,
+div.usabilityPanel {display: none;}
+
+.market:hover,
+.product:hover,
+.usability:hover { background-color: #F4F6F7;}
+
+#competitiveAnalysis_header h1{
+  padding-bottom: 3vh !important;
+}
+
+#competitiveAnalysis_header p{
+   padding-bottom: 3vh !important;
+}
+
+
+/*-------------Media query between width 320px to 699,
+               for phones - portrait : greater than 320px and less than 699px--------------------------------*/
+@media (min-width: 320px) and (max-width: 699px) { 
+section#intro_section h1{font-size: 400%;}
+section#discovery img{width: 100%;}
+section#scope img{width: 10%;}
+.image-styling{width: 80%;height: 100%;}
+
+}
+
+/*-------------Media query between width 700px to 1023,
+               for phones-landscape, Ipad portrait and lanscape : width greater than 700px and less than 1023px; -------*/
+@media (min-width: 700px) and (max-width: 1023px) {
+#intro_section h1{font-size: 500%;}
+#discovery.content-padding{padding: 15vh 5vw 15vh 5vw;}
+section#discovery img{width: 80%;}
+section#scope img{width: 20%;}
+.persona_container.row .col-4:last-of-type{width: 50%; display: inline-block;float: left;
+     margin-left: 20vw; }
+
+
+}
+
+@media (min-width: 1024px) and (max-width: 1600px) { 
+#intro_section h1{font-size: 600%;}
+section#discovery img{width: 80%;}
+section#scope img{width: 20%;}
+
+}
+
+
+/*-------------Media query for above 1600px : width greater than 1601------------------------------*/
+@media (min-width: 1601px) {  
+section#intro_section{height: 90vh;}
+section#intro_section h1{font-size: 600%; }
+section#discovery img{width: 80%;}
+section#scope img{width: 20%;}
+}

@@ -1,0 +1,68 @@
+/*-------------Intro Section--------------*/
+
+section#intro_section p{color: lightgrey !important;}
+
+/*-------------Persona Section--------------*/
+section#userPersona{height: auto;}
+
+.persona-content div {
+  display: inline-block;
+  display: none;
+  text-align: center;
+}
+
+#persona-intro p{color: #505050 !important;}
+
+.persona-styling{
+  height: 50vh;
+  text-align: center;
+}
+
+.image-styling {
+	width: 100%;
+	height: 100%;
+}
+
+/*---------------Scope section----------------*/
+
+
+section#scope img{width: 20%;}
+.discovery-content img{width: 100%;}
+
+/*-------------Media query between width 320px to 699,
+               for phones - portrait : greater than 320px and less than 699px--------------------------------*/
+@media (min-width: 320px) and (max-width: 699px) { 
+
+section#scope img{width: 15%;}
+
+
+/*-------------Media query between width 700px to 1023,
+               for phones-landscape, Ipad portrait and lanscape : width greater than 700px and less than 1023px; -------*/
+@media (min-width: 700px) and (max-width: 1023px) {
+.persona-container h1{font-size: 400%;}
+.persona-container h3{font-size: 250%;}
+#discovery.content-padding{padding: 15vh 5vw 15vh 5vw;}
+
+
+}
+/*-------------Media query between width 1024px to 1600px,
+               for phones-landscape, Ipad portrait and lanscape : width greater than 700px and less than 1023px; -------*/
+
+@media (min-width: 1024px) and (max-width: 1600px) { 
+.spacing h1{padding-bottom: 2vh;}
+section#scope img{width: 30%;}
+.feature-style {height: 45vh;}
+}
+
+
+/*-------------Media query for above 1600px : width greater than 1601------------------------------*/
+@media (min-width: 1601px) {  
+section#intro_section{height: 90vh;}
+
+
+}
+
+
+
+
+
