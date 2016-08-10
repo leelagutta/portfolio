@@ -10,14 +10,16 @@
 }
 .close-styling{
 	position: fixed;
-	right: 100px;
+	right: 5vw;
 	text-align: center;
-	top: 90px;
+	top: 3vh;
 	color: lightgrey!important;
 }
 
-	
+#content h2{
+	font-size: 120% !important;
 }
+
 .close-styling:hover { background: lightgrey; }
 
 .modalDialog {
@@ -26,7 +28,7 @@
 	right: 0;
 	bottom: 0;
 	left: 0;
-	margin: 5vh;
+/*	margin: 5vh;*/
 	background: #F4F6F7;
 	z-index: 99999;
 	opacity:0;
@@ -55,10 +57,9 @@
     
 }
 
-
-
 .persona-image img{
-	width: 85%;
+	max-width: 100%;
+	width: auto;
 }
 
 
@@ -69,10 +70,8 @@
 
 
 #persona-detail {
-	width: 60%;
     padding: 0vh 3vw 10vh 3vw;
     float: left;
-    height: 100%;
     overflow: auto;
     color: #1A1E23 !important;
     background: white;
@@ -87,12 +86,30 @@
 
 
 #persona-intro {
-		width: 40%;
 	text-align: center;
 	float: left;
     background: white;
-    height: 100%;
+/*    height: 100%;*/
     overflow: auto;
 }
 
+@media (min-width: 1000px) {
+	#persona-detail {
+		height: 100%;
+	}
+
+	#persona-intro{
+		height: 100%;
+	}
+
+   .modalDialog{
+   	margin: 5vh;
+   }
+
+   .close-styling{
+   	right: 5vw;
+	top: 10vh;
+   }
+
+}
 

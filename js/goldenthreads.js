@@ -1,26 +1,26 @@
 
 
-var intro_section = "<h1>Ezvari</h1>"+
-  "<p> It's inspiring to see women do amazing things and change the course of their destiny despite all odds by absolute strength, courage and positivity. I am incredibly honored to be part of Kavitha's journey to take her business a step further by building an online presence for her brand</p>"+
-  '<div class="italic">Ezvari is a luxury apparel boutique, based out of Hyderabad-India that makes beautiful and sustainable south asian ethnic clothing for a modern woman</div>';
+var intro_section = "<h1>Golden Threads</h1>"+
+  "<p> It's inspiring to see women do amazing things and change the course of their destiny despite all odds by absolute strength, courage and positivity. I am incredibly honored to be part of one such woman's journey in taking her business a step further by building an online presence for her brand.</p>"+
+  '<div class="italic">Golden Threads is a luxury apparel boutique, based out of Hyderabad-India that makes beautiful and sustainable south asian ethnic clothing for a modern woman.</div>';
 
 var challenge = '<h4>The Challenge</h4>'+
     '<h1>Create personalized experiences for clients</h1>'+
-    "<p>Ezvari provides personalized apparel design services based on customer's individual choice. They currently have a brick and mortar store in India where south asian clients from all over the globe goes in to get customized clothing.</p>"+ 
-    '<p>As the brand gained popularity via social marketing channels, they realized they had significant amount of customer base who is interested in their customized services from countries where there is a significant south Asian market. </p>'+
+    "<p>Golden Threads provides personalized apparel design services based on customer's individual choice. They currently run out of a brick and mortar store where south asian clients from all over the globe goes in, to get customized clothing.</p>"+ 
+    '<p>As the brand gained popularity via social marketing channels, they realized they had significant amount of customer base who is interested in their customized services, from countries where there is a large south Asian demographic. </p>'+
     '<p>In order to be readily accessible to this section of market, who cannot visit their physical store, they wanted a marketplace where they can provide a personalized shopping experience similar to their brick and mortar store.'+
-    '<p>Challenge is to design an e-commerce web application, that speaks the brand integrity and an experience similar to their physical store</p>';
+    '<p>The challenge here is to design a personalised instore experience in an interface like web and mobile that has no in person conversation.</p>';
 
 var role ='<h1>My Role</h1>'+
     '<h2>User Research & Analysis </h2>'+
-    '<p>I gathered invaluable insights about Ezvari competitors, customers, their behaviors and their online shopping habits '+ 
+    '<p>I gathered invaluable insights about Golden Threads competitors, customers, their behaviors and their online shopping habits '+ 
         'through a wide range of user interviews and surveys.</p>'+
     '<h2>Ideation</h2>'+
-    '<p>Following an extensive research about Ezvari business model and their customers, I helped transcribe ideas and concepts in to features that address customer behaviors and emotions.</p>'+
+    '<p>Following an extensive research about Golden Threads business model and their customers, I helped transcribe ideas and concepts in to features that address customer behaviors and emotions.</p>'+
     '<h2>Design</h2>'+
-    '<p> I executed journeys, wireframes, prototypes and design specs.</p>'+
+    '<p> I executed wireframes and prototypes.</p>'+
     '<h2>Usability Testing</h2>'+
-    '<p>I conducted usability testing at various stages of the design process, to constitute a product that is easily usable. </p>';
+    '<p>I conducted usability testing at various stages of the design process, to constitute a product that is easily usable.</p>';
 
 var heading = '<h4>The Discovery</h4>'+    
     '<h1>Customer Insights</h1>'+  
@@ -30,7 +30,7 @@ var heading = '<h4>The Discovery</h4>'+
 var discovery_feature_content =
   '<div class="row">'+
    '<div class="col-6 col-6-styling">'+
-        '<img src="img/GT/customer2.jpg" alt="Ezvari">'+
+        '<img src="img/GT/customer2.jpg" alt="Golden Threads">'+
         '<caption><h2>Fashion Lovers</h2><caption>'+
         '<div><p>This is a segment of customers, who follow latest fashion trends and would like to invest in new clothing often.</p></div>'+
     '</div>'+
@@ -62,7 +62,7 @@ var discovery_feature_content =
         '<div><p>Customers prefer to have a design consultation, where they can talk to the business and get some suggestions on what to buy</div></p>'+
     '</div> '+
     '<div class="col-6 col-6-styling">'+
-        '<img src="img/GT/consultation.jpg" alt="Fitting">'+
+        '<img src="img/GT/fit.jpg" alt="Fitting">'+
         '<caption><h2>Fit Issues</h2><caption>'+
         '<div><p>Main concern customers have while buying online is the fit of the garment. They would like to make sure garment fits well, before they can make a purchase.</p></div>'+
     '</div>'+
@@ -72,7 +72,7 @@ var discovery_feature_content =
      '<div class="col-6 col-6-styling">'+
         '<img src="img/GT/devices.jpg" alt="Devices">'+
         '<caption><h2>Ways of shopping</h2><caption>'+
-        '<div><p>Up to 65 percent of customers like to shop on web, whereas other 35 percent prefer shopping on mobile.</div></p>'+
+        '<div><p>Up to 60 percent of customers still like to shop on web, whereas other 40 percent prefer shopping on mobile.</div></p>'+
     '</div>'+
     '<div class="col-6 col-6-styling">'+
         '<img src="img/GT/returnpolicy.jpg" alt="Returns">'+
@@ -84,16 +84,15 @@ var discovery_feature_content =
  var persona_header = '<h4>The user</h4><h1>User Personas</h1>';
  var persona_container =  '<div class="col-6 persona-styling item"><a href="#fashionista">'+
                           '<figure><img class="image-styling" src="img/GT/fa2.png" alt="Fashionista">'+
-                          '<figcaption><h2>Fashionista</h2><h3>Fashion Lover</h3>'+
-                          '</figcaption></figure></a></div>'+
+                          '</figure>'+
+                          '<div ><h2>Fashionista</h2><h3>Fashion Lover</h3></div></a></div>'+
                           '<div class="col-6 persona-styling item"><a href="#busyBee">'+
                           '<figure><img class="image-styling" src="img/GT/busy.png" alt="BusyBee">'+
-                          '<figcaption><h2>Busy Bee</h2><h3>Busy professional</h3>'+
-                          '</figcaption></figure></a></div>';
+                          '</figure><div ><h2>Busy Bee</h2><h3>Busy professional</h3></div></a></div>';
 
       var fashionista = '<div id="content">'+
       '<a href="#userPersona" title="Close" class="close-styling font-styling"><h2>X</h2></a>'+
-      '<article id="persona-intro">'+
+      '<article id="persona-intro" class="col-6">'+
       '<div class="persona-image"><img src="img/GT/fa1.jpg"></div>'+
       '<h1>Fashionista</h1>'+
       '<h3>Payal, 28years, Software Professional, Married, No Kids <h3>'+
@@ -102,15 +101,15 @@ var discovery_feature_content =
       '<p class="italic">"I like looking good and wearing beautiful garments that makes me '+
           'feel unique and special.'+ 
           ' I would like to stand out among my circle" </p></article>'+
-      '<article id="persona-detail">'+
+      '<article id="persona-detail" class="col-6">'+
         '<div class="col-8 list-style">'+
           '<h1>BIO</h1>'+
           '<ul>'+
           '<li>Has a family income of more than 300k.</li>'+
           '<li>Lives in suburban US.</li>'+
           '<li>Commutes anywhere from half hour to an hour to work.</li>'+
-          '<li>Has a huge South asian circle of friends.</li> '+
-          '<li>Active in South Asian community events.</li> '+
+          '<li>Has a huge south asian circle of friends.</li> '+
+          '<li>Active in south asian community events.</li> '+
           '<li>Has a good sense of fashion.</li>'+
           '<li>Technology savvy.</li></ul>'+
           '<h1>FASHION BEHAVIOR</h1> '+
@@ -184,7 +183,7 @@ var scope_header =' <h4>The Scope</h4><h1>Feature set</h1>'+
 
   '<div class="row">'+
   '<div class="col-3 feature-style"><img src="img/GT/profile.png" alt="Profile"><h4>Customer Profile</h4><p>Easy availability of customer details at one place like orders, saved items, measurements.</p></div>'+ 
-  '<div class="col-3 feature-style"><img src="img/GT/recommendation.png" alt="Ezvari"><h4>Recommendations</h4><p>Recommending items based on clients personality for example : body shape.</p></div>'+
+  '<div class="col-3 feature-style"><img src="img/GT/recommendation.png" alt="Golden Threads"><h4>Recommendations</h4><p>Recommending items based on clients personality for example : body shape.</p></div>'+
   '<div class="col-3 feature-style"><img src="img/GT/chat2.png" alt="Chat"><h4>Instant chat</h4><p>Chat instantly with the designers directly from the application.</h3></div>'+
   '<div class="col-3 feature-style"><img src="img/GT/design.png" alt="Consultation"><h4>Design Consultation</h4><p>Free design consultation can be made on phone, email or video chat by appointments.</p></div></div>'+
 

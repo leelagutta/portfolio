@@ -1,8 +1,8 @@
 
 
 var intro_section = "<h1>Taskly</h1>"+
-  '<div class="italic">Because we all need a plan to bake a cake or build a billion dollar company</div>'+
-  '<p> Taskly is a Project management software for individuals, small businesses and large corporations alike. It helps you achieve great results by proving tools that are so easy to use, even a 5 year old can start planning his homework</p>';
+  '<div class="italic">Because we all need tools to bake a cake or build a billion dollar company.</div>'+
+  '<p> Taskly is a Project management software for individuals, small businesses and large corporations alike. It helps you achieve great results by proving tools that are so easy to use, even a 5 year old can start planning his homework!</p>';
 
 var challenge = '<h4>The Challenge</h4>'+
     '<h1>Focus on Ease</h1>'+
@@ -11,14 +11,14 @@ var challenge = '<h4>The Challenge</h4>'+
     "<p>Their main focus is to build a product that will help customers achieve great results by providing tools that are easy to use and can help teams plan, track and maintain projects, communicate effectively among the teams and in turn increase productivity.</p>";
 
 var role ='<h1>My Role</h1>'+
-    '<p>This project took place between Nov 2015 and June 2016. I worked on this project as a userExperience Designer for UX design course at careerFoundry.</p>'+
-    '<p>I am responsible for the research, interaction design, visual design and copywriting.</p>';
+    '<p>I worked on this project as a user experience designer for UX design course at careerFoundry.</p>'+
+    '<p>I am responsible for the research, ideation and interaction design.</p>';
 
 
 var competitiveAnalysis_header = '<h4>The Discovery</h4>'+
   '<h1>Competitive Analysis</h1>'+
   '<p>To understand the current market in project management software,'+ 
-  ' I did a thorough research on the possible competitors for Taskly.'+ 
+  ' I did a thorough research on Tasklys competitors.'+ 
   'The insights I got from research opened up a different way of approach in designing Taskly.</p>'+ 
   '<p>Below are some of the keys insights during this process</p>'+
   '<p class="italic">To know more click on the categories below</p>' ;
@@ -141,69 +141,61 @@ var usability_panel = '<tr><th><h3>Company</h3></th><th><h3>Usability</h3></th><
         '<td><ol>'+
             '<li>All the buttons and navigational panel is blue in color. Background is white. Text is black. Multiple colors for different  status. </li></ol></td>'+
         '<td><p>Tone of the language is very professional. </p></td></tr></table>';
-var userInsights_header ='<h4>The Discovery 2</h1>'+ 
-  '<h1>User Insights</h1>'+
-  '<p>Conducted user interviews and surveys to get insights on what customers think about the existing '+ 
-      'project management software and how we can improve. Below are the insights we gained through the process</p>';
-var userInsights_content =
-    '<div class="row">'+
-    '<div class="col-6 col-6-height">'+
-    '<div><img src="img/customer2.jpg" alt="Fashion"></div>'+
-        '<caption><h2>Fashion Lovers</h2><caption>'+
-        '<div><p>The primary segment are the customer who follow fashion and would like to buy new garments often</p></div></div>'+
-     '<div class="col-6 col-6-height">'+   
-     '<div><img src="img/customer1.jpg" alt="Ezvari"></div>'+
-        '<caption><h2>Shop when needed</h2><caption>'+
-        '<div><p>These are the segment of customers who would like to buy Indian clothing when they have an occassion it. 65 percent of the customer have about 7 to 10 events to attend and shops atleast twice a year</p></div>'+
-        '</div></div>'+
-    '<div class="row">'+
-    '<div class="col-6 col-6-height">'+
-        '<div><img src="img/pricesensitive.jpg" alt="Ezvari"></div>'+
-        '<caption><h2>Price Sensitive</h2><caption>'+
-        '<div><p>These segment of market is price sensitive. They like to find a balance between price and quality. Willing to spend up to 200 dollars</p></div>'+
-    '</div>'+
-    '<div class="col-6 col-6-height">'+
-        '<div><img src="img/visual.jpg" alt="Ezvari"></div>'+
-        '<caption><h2>Visualization</h2><caption>'+
-        '<div><p>Customers find it hard to visualize how a garment might look on them. They are not sure how true the colors are</p></div>'+
-    '</div>'+ 
-    '</div>'+  
-    '<div class="row">'+
-    '<div class="col-6 col-6-height">'+
-        '<div><img src="img/consultation.jpg" alt="Ezvari"></div>'+
-        '<caption><h2>Design Consultation</h2><caption>'+
-        '<div><p>Current south asians find businesses/boutiques from their home towns on social media like facebook and has a real design consulation on phone. Abuot 68 percent of people prefer this method as they feel they can talk to the business and have a personel relationship</p></div>'+
-    '</div>'+  
-    '<div class="col-6 col-6-height">'+
-        '<div><img src="img/returnpolicy.jpg" alt="Ezvari"></div>'+
-        '<caption><h2>Ways of shopping</h2><caption>'+
-        '<div><p>About 65 percent of customers are concerened about return policy and easy way of getting a return label</p></div>'+
-    '</div>'+
-    '</div>'+    
-    '</div>';
-
-// var persona_container= '<div class="col-4" <img src="img/designer.jpg"></div>'+
-                       // '<div class="col-4" <img src="img/designer.jpg"></div>'+
-                       // '<div class="col-4" <img src="img/designer.jpg"></div>';
- 
+// var userInsights_header ='<h4>The Discovery 2</h1>'+ 
+//   '<h1>User Insights</h1>'+
+//   '<p>Conducted user interviews and surveys to get insights on what customers think about the existing '+ 
+//       'project management software and how we can improve. Below are the insights we gained through the process</p>';
+// var userInsights_content =
+//     '<div class="row">'+
+//     '<div class="col-6 col-6-height">'+
+//     '<div><img src="img/customer2.jpg" alt="Fashion"></div>'+
+//         '<caption><h2>Fashion Lovers</h2><caption>'+
+//         '<div><p>The primary segment are the customer who follow fashion and would like to buy new garments often</p></div></div>'+
+//      '<div class="col-6 col-6-height">'+   
+//      '<div><img src="img/customer1.jpg" alt="Ezvari"></div>'+
+//         '<caption><h2>Shop when needed</h2><caption>'+
+//         '<div><p>These are the segment of customers who would like to buy Indian clothing when they have an occassion it. 65 percent of the customer have about 7 to 10 events to attend and shops atleast twice a year</p></div>'+
+//         '</div></div>'+
+//     '<div class="row">'+
+//     '<div class="col-6 col-6-height">'+
+//         '<div><img src="img/pricesensitive.jpg" alt="Ezvari"></div>'+
+//         '<caption><h2>Price Sensitive</h2><caption>'+
+//         '<div><p>These segment of market is price sensitive. They like to find a balance between price and quality. Willing to spend up to 200 dollars</p></div>'+
+//     '</div>'+
+//     '<div class="col-6 col-6-height">'+
+//         '<div><img src="img/visual.jpg" alt="Ezvari"></div>'+
+//         '<caption><h2>Visualization</h2><caption>'+
+//         '<div><p>Customers find it hard to visualize how a garment might look on them. They are not sure how true the colors are</p></div>'+
+//     '</div>'+ 
+//     '</div>'+  
+//     '<div class="row">'+
+//     '<div class="col-6 col-6-height">'+
+//         '<div><img src="img/consultation.jpg" alt="Ezvari"></div>'+
+//         '<caption><h2>Design Consultation</h2><caption>'+
+//         '<div><p>Current south asians find businesses/boutiques from their home towns on social media like facebook and has a real design consulation on phone. Abuot 68 percent of people prefer this method as they feel they can talk to the business and have a personel relationship</p></div>'+
+//     '</div>'+  
+//     '<div class="col-6 col-6-height">'+
+//         '<div><img src="img/returnpolicy.jpg" alt="Ezvari"></div>'+
+//         '<caption><h2>Ways of shopping</h2><caption>'+
+//         '<div><p>About 65 percent of customers are concerened about return policy and easy way of getting a return label</p></div>'+
+//     '</div>'+
+//     '</div>'+    
+//     '</div>';
 
  var persona_header = '<h4>The user</h4><h1>User Personas</h1>';
  var persona_container =  '<div class="col-4 persona-taskly-styling item"><a href="#smallBusinessOwner">'+
                           '<figure><img class="image-styling" src="img/Taskly/storeowner.png" alt="smallBusinessOwner">'+
-                          '<figcaption><h2>Store Owner</h2><h3>Small Business</h3>'+
-                          '</figcaption></figure></a></div>'+
+                          '</figure><div ><h2>Store Owner</h2><h3>Small Business</h3></div></a></div>'+
                           '<div class="col-4 persona-taskly-styling item"><a href="#softwareProfessional">'+
                           '<figure><img class="image-styling" src="img/Taskly/techie.png" alt="softwareProfessional">'+
-                          '<figcaption><h2>Engineering Manager</h2><h3>Mid Size Company</h3>'+
-                          '</figcaption></figure></a></div>'+
+                          '</figure><div ><h2>Engineering Manager</h2><h3>Mid Size Company</h3></div></a></div>'+
                           '<div class="col-4 persona-taskly-styling item"><a href="#freeLancer">'+
                           '<figure><img class="image-styling" src="img/Taskly/designer.png" alt="freeLancer">'+
-                          '<figcaption><h2>Fashion Designer</h2><h3>freelancer</h3>'+
-                          '</figcaption></figure></a></div>';
+                          '</figure><div ><h2>Fashion Designer</h2><h3>freelancer</h3></div></a></div>';
 
 
 
-var scope_header =' <h1>Feature set</h1>';
+var scope_header =' <h1>Feature set</h1><p>Below are the final features that I came up with, after iteratively testing the feature ideas with customers. This process helped us weed out not-so-important features and concentrate on what customers needed.';
 
  var scope_content='<div class="row">'+
   '<div class="col-4 feature-style"><img src="img/Taskly/projectOverview.png" alt="projectOverview"><h4>Project progress</h4><p>Visual representation of project progress based on the timeline</p></div>'+
@@ -221,7 +213,7 @@ var scope_header =' <h1>Feature set</h1>';
   
   '<div class="row">'+
   '<div class="col-4 feature-style"><img src="img/Taskly/chat.png" alt="Chat"><h4>Instant chat</h4><p>Chat instantly with individuals or groups</p></div>'+
-  '<div class="col-4 feature-style"><img src="img/Taskly/multiProject.png" alt="Ezvari"><h4>Multiple projects</h4><p>Having access to any number of projects at a time</p></div>'+
+  '<div class="col-4 feature-style"><img src="img/Taskly/multiProject.png" alt="multiProject"><h4>Multiple projects</h4><p>Having access to any number of projects at a time</p></div>'+
   '<div class="col-4 feature-style"><img src="img/Taskly/subtask.png" alt="Subtask"><h4>Create subtasks</h4><p>Ability to create subtasks for a task and track the progress</p></div></div>'+
   
   '<div class="row">'+
@@ -229,19 +221,19 @@ var scope_header =' <h1>Feature set</h1>';
   '<div class="col-4 feature-style"><img src="img/Taskly/statusBar.png" alt="Status Bar"><h4>Status bar</h4><p> Visual status bar on task cards for quick project status update. This can be seen on calendar, lists and boards</p></div>'+
   '<div class="col-4 feature-style"><img src="img/Taskly/edit.png" alt="Calendar"><h4>Edit Tasks</h4><p>Create & edit tasks directly on calender</p></div></div>'+
   '<div class="row">'+
-  '<div class="col-4 feature-style"><img src="img/Taskly/dd.png" alt="Ezvari"><h4>Move Cards</h4><p>Drag and drop cards on board to update the status of tasks on the board</p></div>'+
+  '<div class="col-4 feature-style"><img src="img/Taskly/dd.png" alt="Move cards"><h4>Move Cards</h4><p>Drag and drop cards on board to update the status of tasks on the board</p></div>'+
   '<div class="col-4 feature-style"><img src="img/Taskly/wiki.png" alt="Wiki"><h4>Internal Wikipedia</h4><p>Team can create, edit and read articles or posts made by team members</p></div>'+
-  '<div class="col-4 feature-style"><img src="img/Taskly/lists.png" alt="Ezvari"><h4>View Tasks</h4><p>View tasks as lists or on calender</p></div></div>';
+  '<div class="col-4 feature-style"><img src="img/Taskly/lists.png" alt="View tasks"><h4>View Tasks</h4><p>View tasks as lists or on calender</p></div></div>';
 
 
 var freeLancer = '<div id="content">'+
       '<a href="#userPersona" title="Close" class="close-styling font-styling"><h2>X</h2></a>'+
-      '<article id="persona-intro">'+
-      '<div class="persona-image"><img src="img/Taskly/designer.jpg"></div>'+
-      '<h1>Designer</h1>'+
+      '<article id="persona-intro"class="col-3">'+
+      '<div class="persona-image"><img src="img/Taskly/designer.png"></div>'+
+      '<div><h1>Designer</h1>'+
       '<p>Laurel, 27years, Masters in Fine Arts, Single <p>'+
-      '<p class="italic">"I  would like to have a custom board, so that I can track the status of a particular project visually</p></article>'+
-      '<article id="persona-detail">'+
+      '<p class="italic">"I  would like to have a custom board, so that I can track the status of a particular project visually</p></div></article>'+
+      '<article id="persona-detail"class="col-9">'+
         '<div class="list-style">'+
           '<h1>Job Title and Major Responsibilities</h1>'+
           '<ol>'+
@@ -268,9 +260,9 @@ var smallBusinessOwner = '<div id="content">'+
       '<a href="#userPersona" title="Close" class="close-styling font-styling"><h2>X</h2></a>'+
       '<article id="persona-intro" class="col-3">'+
       '<div class="persona-image"><img src="img/Taskly/storeowner.jpg"></div>'+
-      '<h1>Store Owner</h1>'+
+      '<div><h1>Store Owner</h1>'+
       '<p>Mike Vincent, 40years, Cafe owner, Married, 2 kids <p>'+
-      '<p class="italic">"I would like to quickly view the project timelines, status of the project and get notified for any updates</p></article>'+
+      '<p class="italic">"I would like to quickly view the project timelines, status of the project and get notified for any updates</p></div></article>'+
       '<article id="persona-detail" class="col-9">'+
         '<div class="list-style">'+
           '<h1>Job Title and Major Responsibilities</h1>'+
@@ -296,9 +288,9 @@ var softwareProfessional = '<div id="content">'+
       '<a href="#userPersona" title="Close" class="close-styling font-styling"><h2>X</h2></a>'+
       '<article id="persona-intro" class="col-3">'+
       '<div class="persona-image"><img src="img/Taskly/techie.jpg"></div>'+
-      '<h1>Engineering Manager</h1>'+
+      '<div><h1>Engineering Manager</h1>'+
       '<p>Sam, 32years, Bachelors in Computer Science, Married, No children <p>'+
-      '<p class="italic">"I  would like to have a custom board, so that I can track the status of a particular project visually</p></article>'+
+      '<p class="italic">"I  would like to have a custom board, so that I can track the status of a particular project visually.</p></div></article>'+
       '<article id="persona-detail" class="col-9">'+
         '<div class="list-style">'+
           '<h1>Job Title and Major Responsibilities</h1>'+
@@ -327,8 +319,6 @@ $("#competitiveAnalysis_header").append(competitiveAnalysis_header);
 $(".marketPanel").append(market_panel);
 $(".productPanel").append(product_panel);
 $(".usabilityPanel").append(usability_panel);
-$(".userInsights_content").append(userInsights_content);
-$(".userInsights_header").append(userInsights_header);
 $(".persona_header").append(persona_header);
 $(".persona_container").append(persona_container);
 $("#freeLancer").append(freeLancer);
