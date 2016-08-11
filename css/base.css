@@ -103,6 +103,14 @@ display: block;
   text-align: center;
 }
 
+#footer{
+  background-color: black;
+}
+
+#icons{
+  margin-top: 10vh;
+}
+
 #footer img{
   width: 15%;
   display: inline;
