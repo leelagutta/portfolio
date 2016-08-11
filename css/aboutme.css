@@ -2,10 +2,24 @@ header{
 	padding: 10vh 20vh 10vh 20vh;
 }
 
-header h1{
+/*header h1{
 	text-align: center;
-}
+}*/
 
 article{
 	padding: 0vh 20vh 20vh 20vh;
+}
+
+.aboutme p{	
+  color: black!important;
+  font-family: "callunaRegular"!important;
+}
+
+.aboutme{
+	margin-top: 20vh;
+}
+
+header{
+	background-color: black;
+	text-align: left!important;
 }
