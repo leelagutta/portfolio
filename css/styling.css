@@ -60,6 +60,10 @@ border: 1px solid lightgrey;}
   font-family: "callunaitalic"!important;
 }
 
+.BebasNeueBold{
+  font-family: 'BebasNeueBold', sans-serif;
+}
+
 .feature-style p{
 font-family: "callunaRegular"!important;
 font-size: 120%!important;
@@ -70,6 +74,20 @@ color: black !important;}
   border-bottom: 1px solid lightgrey!important;
   padding-bottom: 10vh 0vh 10vh 0vh!important;
 }
+
+/*----------Image Styling --------------*/
+img{
+  max-width: 100%;
+  width: auto;
+}
+
+.home-logo{
+  top : 5vh;
+  left: 7vw;
+  position: absolute;
+}
+
+
 
 
 /*----------------------screen ranging from 320px to 699px----------------------------------*/
