@@ -71,7 +71,6 @@ color: black !important;}
 
 .feature-style{text-align: center;
   height: 35vh;
-  border-bottom: 1px solid lightgrey!important;
   padding-bottom: 10vh 0vh 10vh 0vh!important;
 }
 
@@ -87,29 +86,29 @@ img{
   position: absolute;
 }
 
-
-
-
 /*----------------------screen ranging from 320px to 699px----------------------------------*/
 
-@media (min-width: 320px) and (max-width: 699px) { 
+@media (min-width: 310px) and (max-width: 699px) { 
 .col-6-styling{height: 80vh;}
 section#intro_section h1{font-size: 400%;}
 .content-padding{padding: 10vh 5vw 10vh 5vw;}
+.feature-style{
+  border-bottom: 1px solid lightgrey!important;}
 }
 
 /*----------------------screen ranging from 700px to 1023Px----------------------------------*/
-@media (min-width: 700px) and (max-width: 1023px) {
+@media (min-width: 700px) and (max-width: 1022px) {
 h1{font-size: 250%;}
 h2{font-size: 180%;}
 h3{font-size: 150%;}
 h4{font-size: 120%;}
 #intro_section h1{font-size: 500%;}
 .content-padding{padding: 15vh 10vw 15vh 10vw;}
+.feature-style{  height: 50vh;}
 }
 
 /*----------------------screen ranging from 1024 to 1600px----------------------------------*/
-@media (min-width: 1024px) and (max-width: 1600px) { 
+@media (min-width: 1023px) and (max-width: 1600px) { 
 h1{font-size: 250%}
 h2{font-size: 200%;}
 h3{font-size: 160%;}
@@ -117,12 +116,16 @@ h4{font-size: 135%;}
 #intro_section h1{font-size: 600%!important;}
 .spacing h1{padding-bottom: 2vh;}
 .content-padding{padding: 20vh 15vw 20vh 15vw;}
+.feature-style{
+  border-bottom: 1px solid lightgrey!important;}
 }
 
 /*----------------------screen with width more than 1600px----------------------------------*/
 @media (min-width: 1601px) { 
   .content-padding{padding: 20vh 20vw 20vh 20vw;}
   section#intro_section h1{font-size: 600%!important;}
+  .feature-style{
+  border-bottom: 1px solid lightgrey!important;}
 }
 
 @font-face {

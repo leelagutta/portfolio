@@ -4,7 +4,7 @@
 
 #menu {
    display: block;
-   width: 30vw;
+   width: 50vw;
    height: 100vh;
    top: 0;
    z-index: 9999;
@@ -69,7 +69,7 @@
 
 .toggle {
    top: 5vh;
-   right: 35vw; 
+   right: 55vw; 
    padding:10px;
    position: absolute;
 }
@@ -80,7 +80,7 @@
 
 /*showing the menu then the Checkbox is checked */
 #toggle:checked + #menu {
-   left: 70vw;
+   left: 50vw;
     -webkit-transition: left 1s;   
     transition: left 1s;
 }
@@ -110,4 +110,19 @@ ul[class^="dropdown"] {
 input[id^="dropdown"]:checked + ul[class^="dropdown"] {
    height: auto;
    display: block;
+}
+
+@media (min-width: 700px) {
+  #toggle:checked + #menu {
+   left: 70vw;
+  }
+
+#menu {
+   width: 30vw;
+}
+
+.toggle {
+   right: 35vw; 
+}
+
 }
