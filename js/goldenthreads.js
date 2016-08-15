@@ -46,7 +46,7 @@ var discovery_feature_content =
     '<div class="col-6 col-6-styling">'+
         '<img src="img/GT/pricesensitive.jpg" alt="Price">'+
         '<caption><h2>Price Sensitive</h2><caption>'+
-        '<div><p>Customers would like to find a balance between price and quality. They are willing to spend up to 200 dollars to buy online without trying them first.</div></p>'+
+        '<div><p>Customers like to find a balance between price and quality. Willing to spend up to 200 dollars when buying online without trying them on.</div></p>'+
     '</div>'+
     '<div class="col-6 col-6-styling">'+
         '<img src="img/GT/visual.jpg" alt="Visualization">'+

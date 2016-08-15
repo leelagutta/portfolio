@@ -14,7 +14,6 @@ section#userPersona{height: auto;}
 #persona-intro p{color: #505050 !important;}
 
 .persona-styling{
-  height: 50vh;
   text-align: center;
   margin-bottom: 10vh;
 }
@@ -29,7 +28,6 @@ a{
   text-decoration: none;
   color: black;
 }
-
 
 /*---------------Scope section----------------*/
 

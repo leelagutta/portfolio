@@ -30,9 +30,7 @@ ul li{font-size: 120%}
 
 /*default col-6 styling*/
 .col-6-styling{
-height: 70vh;
-text-align: center;
-border: 1px solid lightgrey;}
+text-align: center;}
 .col-6-styling p{padding-bottom: 1vh !important;}
 .col-6-styling h2{padding: 3vh 0vh 3vh 0vh;}
 
@@ -69,10 +67,7 @@ font-family: "callunaRegular"!important;
 font-size: 120%!important;
 color: black !important;}
 
-.feature-style{text-align: center;
-  height: 35vh;
-  padding-bottom: 10vh 0vh 10vh 0vh!important;
-}
+.feature-style{text-align: center;}
 
 /*----------Image Styling --------------*/
 img{
@@ -89,11 +84,9 @@ img{
 /*----------------------screen ranging from 320px to 699px----------------------------------*/
 
 @media (min-width: 310px) and (max-width: 699px) { 
-.col-6-styling{height: 80vh;}
 section#intro_section h1{font-size: 400%;}
 .content-padding{padding: 10vh 5vw 10vh 5vw;}
-.feature-style{
-  border-bottom: 1px solid lightgrey!important;}
+.col-6-styling{border-bottom: 1px solid lightgrey;}
 }
 
 /*----------------------screen ranging from 700px to 1023Px----------------------------------*/
@@ -117,6 +110,7 @@ h4{font-size: 135%;}
 .spacing h1{padding-bottom: 2vh;}
 .content-padding{padding: 20vh 15vw 20vh 15vw;}
 .feature-style{
+  height: 35vh;
   border-bottom: 1px solid lightgrey!important;}
 }
 
@@ -125,6 +119,7 @@ h4{font-size: 135%;}
   .content-padding{padding: 20vh 20vw 20vh 20vw;}
   section#intro_section h1{font-size: 600%!important;}
   .feature-style{
+  height: 35vh;  
   border-bottom: 1px solid lightgrey!important;}
 }
 
