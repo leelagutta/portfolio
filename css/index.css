@@ -15,13 +15,8 @@ h2{font-size: 300%;}
 h3{font-size: 140%;}
 
 img{
-    width: auto;
-    height: auto;
     max-width:100%;
-}
-
-figure img{
-  height: 90vh;
+    width: auto;
 }
 
 .home-logo{
@@ -39,6 +34,10 @@ figure img{
 a{
   text-decoration: none;
   color: black;
+}
+
+.spacing{
+  padding-top: 10vh;
 }
 
 .read{
@@ -101,6 +100,11 @@ section#intro_section h1{
   text-transform: uppercase;
 }
 
+section#showcase img{
+  height: 100%;
+  width: auto;
+}
+
 /*-------------Media query between width 320px to 699,
                for phones - portrait : greater than 320px and less than 699px--------------------------------*/
 @media (min-width: 310px) and (max-width: 699px) { 
@@ -127,6 +131,11 @@ section.banner h1 {
   padding-left: 2vw !important;
 }
 
+section#showcase img{
+  height: 100%;
+  width: auto;}
+}
+
 /*-------------Media query between width 700px to 1023,
                for phones-landscape, Ipad portrait and lanscape : width greater than 700px and less than 1023px; -------*/
 @media (min-width: 700px) and (max-width: 1023px) {
@@ -137,9 +146,10 @@ section.banner {
   padding-top: 40vh; 
   height: 90vh;
  }
- .spacing{
-  padding-top: 10vh;
-}
+
+section#showcase img{
+  height: auto;
+ }
 }
 
 /*-------------Media query between width 1024px to 
@@ -150,9 +160,6 @@ section.banner {
   padding-top: 40vh; 
   height: 90vh;
  }
- .spacing{
-  padding-top: 10vh;
-}
 }
 
 /*-------------Media query between width 1201px to 
@@ -168,9 +175,6 @@ section.banner {
   padding-right: 10vw;
   padding-left: 10vw;
 }
-.spacing{
-  padding-top: 10vh;
-}
 
 }
 
@@ -184,6 +188,9 @@ section.banner h1 {font-size: 900%;}
 
 .container{padding: 10vh 20vh 10vh 20vh;}
 
+section#showcase img{
+  height: auto;
+}
 }
 
 
