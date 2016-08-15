@@ -23,7 +23,7 @@
 }
 
 .persona-taskly-styling{
-  height: 50vh;
+/*  height: 50vh;*/
   text-align: center;
   margin-bottom: 10vh;
 }
@@ -50,7 +50,7 @@ padding-bottom: 20vh;
 	width: 100%;	
 }
 
-.image-styling{max-width:100%;width: auto;height: 100%;}
+.image-styling{max-width:100%;max-height:100%;width: auto;height: auto;}
 
 div.marketPanel,
 div.productPanel,
@@ -75,7 +75,7 @@ div.usabilityPanel {display: none;}
 section#intro_section h1{font-size: 400%;}
 section#discovery img{width: 100%;}
 section#scope img{width: 10%;}
-.image-styling{width: 80%;height: 100%;}
+/*.image-styling{width: 80%;height: 100%;}*/
 
 }
 

@@ -36,10 +36,6 @@ a{
   color: black;
 }
 
-.spacing{
-  padding-top: 10vh;
-}
-
 .read{
   padding-top: 4vh;
 }
@@ -48,6 +44,9 @@ a{
   color: black;
 }
 
+.work{
+  margin-bottom: 3.5vh;
+}
 /*------------Spacing--------------*/
 .textspacingVertical {
   padding: 10vh 0vw 10vh 0vw;
@@ -101,7 +100,7 @@ section#intro_section h1{
 }
 
 section#showcase img{
-  height: 100%;
+  height: auto;
   width: auto;
 }
 
@@ -132,7 +131,7 @@ section.banner h1 {
 }
 
 section#showcase img{
-  height: 100%;
+  height: auto;
   width: auto;}
 }
 
@@ -160,6 +159,11 @@ section.banner {
   padding-top: 40vh; 
   height: 90vh;
  }
+
+ .spacing{
+  padding-top: 10vh;
+}
+
 }
 
 /*-------------Media query between width 1201px to 
@@ -176,6 +180,10 @@ section.banner {
   padding-left: 10vw;
 }
 
+.spacing{
+  padding-top: 10vh;
+}
+
 }
 
 
@@ -190,6 +198,10 @@ section.banner h1 {font-size: 900%;}
 
 section#showcase img{
   height: auto;
+}
+
+.spacing{
+  padding-top: 10vh;
 }
 }
 
