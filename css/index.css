@@ -17,6 +17,7 @@ h3{font-size: 140%;}
 img{
     max-width:100%;
     width: auto;
+    /*border: 5px solid grey;*/
 }
 
 .home-logo{
@@ -36,12 +37,14 @@ a{
   color: black;
 }
 
-.read{
-  padding-top: 4vh;
-}
-
 .read a{
   color: black;
+}
+
+.read:hover a{
+/*   transform: translateY(135px);*/
+/*  background-color: white;*/
+opacity: 0.4;
 }
 
 .work{
@@ -49,7 +52,7 @@ a{
 }
 /*------------Spacing--------------*/
 .textspacingVertical {
-  padding: 10vh 0vw 10vh 0vw;
+  padding: 0vh 0vw 5vh 0vw;
 }
 
 .textspacingHorizontal{
@@ -92,6 +95,7 @@ section.banner-img2 {
 /*--------------Text Spacing-----------------*/
 section#intro_section{
   padding: 10vh 20vw 20vh 20vw;
+  background-color: #F4F6F7;
 }
 
 section#intro_section h1{
@@ -161,9 +165,9 @@ h1{
   font-size: 300%;
 }
 
-.work{
+/*.work{
   height: 30vh;
-}
+}*/
 
 }
 
@@ -180,9 +184,9 @@ section.banner {
   padding-top: 10vh;
 }
 
-.work{
+/*.work{
   height: 40vh;
-}
+}*/
 
 }
 
@@ -203,10 +207,12 @@ section.banner {
 .spacing{
   padding-top: 10vh;
 }
-.work{
+/*.work{
   height: 50vh;
+}*/
+h1{
+  font-size: 350%;
 }
-
 }
 
 
@@ -226,9 +232,9 @@ section#showcase img{
 .spacing{
   padding-top: 10vh;
 }
-.work{
+/*.work{
   height: 60vh;
-}
+}*/
 }
 
 
