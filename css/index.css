@@ -96,6 +96,7 @@ section.banner-img2 {
 section#intro_section{
   padding: 10vh 20vw 20vh 20vw;
   background-color: #F4F6F7;
+  background: rgba(244,246,200,0.3);
 }
 
 section#intro_section h1{
