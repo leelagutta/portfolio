@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="fontawesome/css/font-awesome.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
   	<script src="js/wow.min.js"></script>
+    <script src="js/nav.js"></script>
     <link rel="icon" 
       type="image/png" 
       href="img/dgtrans.png"/>
@@ -20,10 +21,23 @@
 <body>
 <div class="grid-container">
 <!-- ***************** ***** OffCanvas Navigation ***************************** -->
-<input type="checkbox" name="menu" value="toggle" id="toggle">
-    <section id="menu">
-    <label class="toggle" for="toggle"><i class="fa fa-2x fa-bars"></i></label>
-    <nav id="navigation" class="menuContent"></nav></section>
+  <div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <li><a href="/index.html">Home</a></li>
+  <li><a href="/about.html">About</a></li>
+  <li id="submenu">
+     <label for="dropdown" class="dropdown"><a>WORK</a></label>
+     <input type="checkbox" name="menu" id="dropdown">
+    <ul class="dropdown">
+    <li><a href="/work_gt.html"><i class="fa"></i>GoldenThreads</a></li>
+    <li><a href="/work_taskly.html"><i class="fa"></i>Taskly</a></li>
+    <li><a href="http://mydesignotes.com"><i class="fa"></i>DesignNotes</a></li>
+    <li><a href="https://github.com/leelagutta"><i class="fa"></i>Code</a></li>
+    <li><a href="https://dribbble.com/dhanyagutta"><i class="fa"></i>Dribble</a></li></ul>
+    </li>
+    <li><a href="#">Contact</a></li>
+</div>
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
  <!-- ******************* Home logo ********************** -->
       <div class="home-logo">  <a href="index.html"> <img src="img/dgwhite.png"></a></div>    
 <!--************************** IntroSection *******************************************-->

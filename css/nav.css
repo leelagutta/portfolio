@@ -87,19 +87,17 @@
 
 
 #submenu ul li {
-  text-align: center;
-  font-size:19px;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid grey;
 }
 
 .dropdown{
-  background-color: grey;
-  opacity: 0.8;
+  /*background-color: grey;*/
+  /*opacity: 0.5;*/
  }
 
 .dropdown li{
    font-size:14px !important;
-   font-style: italic !important;
+ /*  font-style: italic !important;*/
 }
 
 /* Hiding the checkboxes so only the labels are visible */
@@ -117,6 +115,7 @@ input[id^="dropdown"]:checked + ul[class^="dropdown"] {
   #toggle:checked + #menu {
    left: 70vw;
   }
+}
 
 #menu {
    width: 30vw;
@@ -126,4 +125,71 @@ input[id^="dropdown"]:checked + ul[class^="dropdown"] {
    right: 35vw; 
 }
 
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: white;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    text-align: center;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    color: #818181;
+    display: block;
+    transition: 0.3s
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+span{
+  position: fixed;
+  left:93vw;
+  top:5vh;
+}
+#mySidenav li{
+  text-transform: uppercase;
+  list-style-type: none;
+}
+
+
+ul.dropdown a:hover{
+  color: whitesmoke;
+}
+
+ul.dropdown{
+  /*padding-left: 1vw;*/
+  font-size: 120%;
+}
+
+@media (min-width: 300px) and (max-width:699px){
+  
+span{
+  position: fixed;
+  left:90vw;
+  top:5vh;
+}
+
+@media (min-width: 700px) and (max-width:1040px){
+  
+span{
+  position: fixed;
+  left:90vw;
+  top:5vh;
 }

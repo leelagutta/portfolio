@@ -184,10 +184,10 @@ section.banner {
  .spacing{
   padding-top: 10vh;
 }
-
-/*.work{
-  height: 40vh;
-}*/
+ 
+.work:hover{
+  opacity: 0.6;
+ }
 
 }
 
@@ -214,6 +214,10 @@ section.banner {
 h1{
   font-size: 350%;
 }
+
+ .work:hover{
+  opacity: 0.6;
+ }
 }
 
 
@@ -233,6 +237,10 @@ section#showcase img{
 .spacing{
   padding-top: 10vh;
 }
+
+ .work:hover{
+  opacity: 0.6;
+ }
 /*.work{
   height: 60vh;
 }*/
