@@ -6,7 +6,7 @@ var intro_section = "<h1>Taskly</h1>"+
 
 var challenge = '<h4>The Challenge</h4>'+
     '<h1>Focus on Ease</h1>'+
-    '<p class="italic"> This is a side project that I am currently working in my UX Design course at careerFoundry.com. I was given the below challenge to build a project software management application based on the business needs.</p>'+
+    '<p class="italic"> This is a side project that I am currently working in my UX Design course at <a href="https://careerfoundry.com/courses/how-to-become-a-user-experience-designer">careerFoundry</a>. I was given the below challenge to build a project software management application based on the business needs.</p>'+
     "<p>Taskly is a startup, which is working on a new approach towards providing the project management software as a service to individuals and businesses.</p>"+ 
     "<p>Their main focus is to build a product that will help customers achieve great results by providing tools that are easy to use and can help teams plan, track and maintain projects, communicate effectively among the teams and in turn increase productivity.</p>";
 
@@ -114,8 +114,8 @@ var usability_panel = '<tr><th><h3>Company</h3></th><th><h3>Usability</h3></th><
         '<td><ol>'+
             '<li>Layout is clean, simple and understandable.</li>'+
             '<li>Could improve making the tools thumbnails more appealing in colors and styling. </li>'+ 
-            '</li>After a new  to-do task is added, you have to go back to dashboard to see the new todo. It would be better to show the list soon after its created .</li>'+
-            '</li>Navigation is clear, I know where exactly I am in the application.</li></ol></td>'+
+            '<li>After a new  to-do task is added, you have to go back to dashboard to see the new todo. It would be better to show the list soon after its created .</li>'+
+            '<li>Navigation is clear, I know where exactly I am in the application.</li></ol></td>'+
         '<td><ol>'+
             '<li>Application has very subtle colors. </li>'+
             '<li>Background is very neutral with lighter shades of cream. </li>'+ 
@@ -137,7 +137,7 @@ var usability_panel = '<tr><th><h3>Company</h3></th><th><h3>Usability</h3></th><
         '<td><p>Tone of the language is casual. Very close to reality. Relatable</li></ol></td></tr>'+
     '<tr><td><h3>Jira</h3></td>'+
         '<td><p>Not easy to find things, Name are confusing</p></td>'+
-        '<td><p>I never will know where I am. Can’t find things without getting totally lost</p></td>'+
+        '<td><p>I never will know where I am. Can\'t find things without getting totally lost</p></td>'+
         '<td><ol>'+
             '<li>All the buttons and navigational panel is blue in color. Background is white. Text is black. Multiple colors for different  status. </li></ol></td>'+
         '<td><p>Tone of the language is very professional. </p></td></tr></table>';

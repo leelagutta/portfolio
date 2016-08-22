@@ -58,7 +58,7 @@ div.usabilityPanel {display: none;}
 
 .market:hover,
 .product:hover,
-.usability:hover { background-color: white;}
+.usability:hover { background-color: white;cursor:pointer;}
 
 #competitiveAnalysis_header h1{
   padding-bottom: 3vh !important;
@@ -66,6 +66,20 @@ div.usabilityPanel {display: none;}
 
 #competitiveAnalysis_header p{
    padding-bottom: 3vh !important;
+}
+
+#competitiveAnalysis h2{
+  text-align: center;
+}
+
+#challenge a{
+  text-decoration: none;
+  background-color: lightgrey;
+  color: black;
+}
+
+#challenge a:hover{
+  background-color: whitesmoke;
 }
 
 
@@ -96,7 +110,9 @@ section#scope img{width: 20%;}
 #intro_section h1{font-size: 600%;}
 section#discovery img{width: 80%;}
 section#scope img{width: 20%;}
-
+.persona_container img:hover{
+  opacity: 0.6;
+}
 }
 
 
@@ -106,4 +122,7 @@ section#intro_section{height: 90vh;}
 section#intro_section h1{font-size: 600%; }
 section#discovery img{width: 80%;}
 section#scope img{width: 20%;}
+.persona_container img:hover{
+  opacity: 0.6;
+}
 }
