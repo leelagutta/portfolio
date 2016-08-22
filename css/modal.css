@@ -12,15 +12,14 @@
 	position: fixed;
 	right: 5vw;
 	text-align: center;
-	top: 3vh;
-	color: lightgrey!important;
+	top: 5vh;
 }
 
-#content h2{
+/*#content h2{
 	font-size: 120% !important;
-}
+}*/
 
-.close-styling:hover { background: lightgrey; }
+.close-styling:hover { color: lightgrey; }
 
 .modalDialog {
 	position: fixed;
@@ -107,7 +106,7 @@
    }
 
    .close-styling{
-   	right: 5vw;
+   	right: 7vw;
 	top: 10vh;
    }
 

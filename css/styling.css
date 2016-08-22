@@ -97,7 +97,7 @@ h3{font-size: 150%;}
 h4{font-size: 120%;}
 #intro_section h1{font-size: 500%;}
 .content-padding{padding: 15vh 10vw 15vh 10vw;}
-.feature-style{  height: 50vh;}
+/*.feature-style{  height: 50vh;}*/
 }
 
 /*----------------------screen ranging from 1024 to 1600px----------------------------------*/
@@ -109,18 +109,18 @@ h4{font-size: 135%;}
 #intro_section h1{font-size: 600%!important;}
 .spacing h1{padding-bottom: 2vh;}
 .content-padding{padding: 20vh 15vw 20vh 15vw;}
-.feature-style{
+/*.feature-style{
   height: 35vh;
-  border-bottom: 1px solid lightgrey!important;}
+  border-bottom: 1px solid lightgrey!important;}*/
 }
 
 /*----------------------screen with width more than 1600px----------------------------------*/
 @media (min-width: 1601px) { 
   .content-padding{padding: 20vh 20vw 20vh 20vw;}
   section#intro_section h1{font-size: 600%!important;}
-  .feature-style{
+  /*.feature-style{
   height: 35vh;  
-  border-bottom: 1px solid lightgrey!important;}
+  border-bottom: 1px solid lightgrey!important;}*/
 }
 
 @font-face {

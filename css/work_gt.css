@@ -18,10 +18,14 @@ section#userPersona{height: auto;}
   margin-bottom: 10vh;
 }
 
+.persona-styling:hover{
+   opacity: 0.6;
+}
 .image-styling {
   max-width: 100%;
+  max-height: 100%;
 	width: auto;
-	height: 100%;
+	height: auto;
 }
 
 a{
@@ -33,7 +37,6 @@ a{
 
 
 section#scope img{width: 20%;}
-.discovery-content img{width: 100%;}
 
 /*-------------Media query between width 320px to 699,
                for phones - portrait : greater than 320px and less than 699px--------------------------------*/

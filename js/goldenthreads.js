@@ -1,14 +1,14 @@
 
 
 var intro_section = "<h1>Golden Threads</h1>"+
-  "<p> It's inspiring to see women do amazing things and change the course of their destiny despite all odds by absolute strength, courage and positivity. I am incredibly honored to be part of one such woman's journey in taking her business a step further by building an online presence for her brand.</p>"+
-  '<div class="italic">Golden Threads is a luxury apparel boutique, based out of Hyderabad-India that makes beautiful and sustainable south asian ethnic clothing for a modern woman.</div>';
+  // "<p> It's inspiring to see women do amazing things and change the course of their destiny despite all odds by absolute strength, courage and positivity. I am incredibly honored to be part of one such woman's journey in taking her business a step further by building an online presence for her brand.</p>"+
+  '<div class="italic">Golden Threads is a luxury apparel boutique, based out of Hyderabad-India that makes beautiful and sustainable south asian ethnic clothing.</div>';
 
 var challenge = '<h4>The Challenge</h4>'+
     '<h1>Create personalized experiences for clients</h1>'+
-    "<p>Golden Threads provides personalized apparel design services based on customer's individual choice. They currently run out of a brick and mortar store where south asian clients from all over the globe goes in, to get customized clothing.</p>"+ 
-    '<p>As the brand gained popularity via social marketing channels, they realized they had significant amount of customer base who is interested in their customized services, from countries where there is a large south Asian demographic. </p>'+
-    '<p>In order to be readily accessible to this section of market, who cannot visit their physical store, they wanted a marketplace where they can provide a personalized shopping experience similar to their brick and mortar store.'+
+    "<p>Golden Threads provides personalized apparel design services based on customer's individual choice. They currently run out of a brick and mortar store in Hyderabad.</p>"+ 
+    '<p>As the brand gained popularity via social marketing channels, they realized they had significant amount of south asian diaspora who is interested in their customized services.</p>'+
+    '<p>In order to be readily accessible to this section of market, they wanted a marketplace where they can provide a personalized shopping experience similar to their brick and mortar store.'+
     '<p>The challenge here is to design a personalised instore experience in an interface like web and mobile that has no in person conversation.</p>';
 
 var role ='<h1>My Role</h1>'+
@@ -24,7 +24,7 @@ var role ='<h1>My Role</h1>'+
 
 var heading = '<h4>The Discovery</h4>'+    
     '<h1>Customer Insights</h1>'+  
-    '<p>I carried through the process of user research to better understand the current online shopping patterns for south asian clothing by south asian women living in United States.</P>'+
+    '<p>I have done user research to better understand the current online shopping patterns for south asian clothing by south asian women living in United States.</P>'+
     '<p>These are the key insights that defined the launch version of the product.</p>';
 
 var discovery_feature_content =
@@ -32,13 +32,13 @@ var discovery_feature_content =
    '<div class="col-6 col-6-styling">'+
         '<img src="img/GT/customer2.jpg" alt="Golden Threads">'+
         '<caption><h2>Fashion Lovers</h2><caption>'+
-        '<div><p>This is a segment of customers, who follow latest fashion trends and would like to invest in new clothing often.</p></div>'+
+        '<div><p>This segment of customers, follows latest fashion trends and would like to invest in new clothing often.</p></div>'+
     '</div>'+
      
      '<div class="col-6 col-6-styling"> '+  
         '<img src="img/GT/customer1.jpg" alt="BusyProfessional">'+
         '<caption><h2>Shop when needed</h2><caption>'+
-        '<div><p>This is a segment of customers, who would like to buy Indian clothing only when they have an occasion for it.</div></p>'+
+        '<div><p>This segment of customers who would like to buy Indian clothing only when they have an occasion.</div></p>'+
     '</div>'+
 '</div>'+
 
@@ -46,12 +46,12 @@ var discovery_feature_content =
     '<div class="col-6 col-6-styling">'+
         '<img src="img/GT/pricesensitive.jpg" alt="Price">'+
         '<caption><h2>Price Sensitive</h2><caption>'+
-        '<div><p>Customers like to find a balance between price and quality. Willing to spend up to 200 dollars when buying online without trying them on.</div></p>'+
+        '<div><p>Customers like to find a balance between price and quality. Willing to spend up to $200 while buying online without trying them on.</div></p>'+
     '</div>'+
     '<div class="col-6 col-6-styling">'+
         '<img src="img/GT/visual.jpg" alt="Visualization">'+
         '<caption><h2>Visualization</h2><caption>'+
-        '<div><p>Customers find it hard to visualize how a garment might look on them. They are skeptical about the colors, style and fit.</div></p>'+
+        '<div><p>Customers find it hard to visualize how a garment will look on them. They are skeptical about the colors, style and fit.</div></p>'+
     '</div> '+
     '</div> '+
 
@@ -59,7 +59,7 @@ var discovery_feature_content =
     '<div class="col-6 col-6-styling">'+
         '<img src="img/GT/consultation.jpg" alt="Consultation">'+
         '<caption><h2>Design Consultation</h2><caption>'+
-        '<div><p>Customers prefer to have a design consultation, where they can talk to the business and get some suggestions on what to buy</div></p>'+
+        '<div><p>Customers prefer having a design consultation, where they can talk to the business and get some suggestions on what to buy.</div></p>'+
     '</div> '+
     '<div class="col-6 col-6-styling">'+
         '<img src="img/GT/fit.jpg" alt="Fitting">'+
@@ -70,30 +70,29 @@ var discovery_feature_content =
 
     '<div class="row">'+
      '<div class="col-6 col-6-styling">'+
-        '<img src="img/GT/devices.jpg" alt="Devices">'+
+        '<img src="img/GT/devices.png" alt="Devices">'+
         '<caption><h2>Ways of shopping</h2><caption>'+
-        '<div><p>Up to 60 percent of customers still like to shop on web, whereas other 40 percent prefer shopping on mobile.</div></p>'+
+        '<div><p>Up to 60% of customers still like to shop on web, whereas other 40% prefer shopping on mobile.</div></p>'+
     '</div>'+
     '<div class="col-6 col-6-styling">'+
         '<img src="img/GT/returnpolicy.jpg" alt="Returns">'+
         '<caption><h2>Returnophobia</h2><caption>'+
-        '<div><p>About 65 percent of customers are concerned about return policy and would like to have free returns, possibly in the same country they are living in.</div></p>'+
+        '<div><p>About 65% of customers are concerned about return policy and would like to have free returns, possibly in the same country they are living in.</div></p>'+
     '</div>'+
   '</div>';
 
  var persona_header = '<h4>The user</h4><h1>User Personas</h1>';
  var persona_container =  '<div class="col-6 persona-styling item"><a href="#fashionista">'+
-                          '<figure><img class="image-styling" src="img/GT/fa2.png" alt="Fashionista">'+
-                          '</figure>'+
+                          '<img class="image-styling" src="img/GT/fa2.png" alt="Fashionista">'+
                           '<div ><h2>Fashionista</h2><h3>Fashion Lover</h3></div></a></div>'+
                           '<div class="col-6 persona-styling item"><a href="#busyBee">'+
-                          '<figure><img class="image-styling" src="img/GT/busy.png" alt="BusyBee">'+
-                          '</figure><div ><h2>Busy Bee</h2><h3>Busy professional</h3></div></a></div>';
+                          '<img class="image-styling" src="img/GT/busy.png" alt="BusyBee">'+
+                          '<div ><h2>Busy Bee</h2><h3>Busy professional</h3></div></a></div>';
 
       var fashionista = '<div id="content">'+
       '<a href="#userPersona" title="Close" class="close-styling font-styling"><h2>X</h2></a>'+
       '<article id="persona-intro" class="col-6">'+
-      '<div class="persona-image"><img src="img/GT/fa1.jpg"></div>'+
+      '<div class="persona-image"><img src="img/GT/fa2.png"></div>'+
       '<h1>Fashionista</h1>'+
       '<h3>Payal, 28years, Software Professional, Married, No Kids <h3>'+
       '<h3>Morganville, NJ</h3>'+
@@ -131,18 +130,18 @@ var discovery_feature_content =
           '<li>See whats on sale</li>'+
           '<li>Write Product reviews</li>'+
           '<li>Share picture on social media of the business</li></ul></div>'+
-      '<div class="col-4"><img src="img/GT/fashionistaAnalytics.png"></div>'+
+      // '<div class="col-4"><img src="img/GT/fashionistaAnalytics.png"></div>'+
       '</article></div>';
 
       var busyBee = '<div id="content">'+
       '<a href="#userPersona" title="Close" class="close-styling font-styling"><h2>X</h2></a>'+
-      '<article id="persona-intro" class="col-3">'+
-      '<div class="persona-image"><img src="img/GT/busy.jpg"></div>'+
+      '<article id="persona-intro" class="col-6">'+
+      '<div class="persona-image"><img src="img/GT/busy.png"></div>'+
       '<h1>BusyBee</h1>'+
       '<p>Priya, 35years, Business Professional, Married, 2 Kids <p>'+
       '<p>San Jose, CA</p>'+
       '<p class="italic">"I would like to buy indian clothing when ever I need them. I would like to quickly find stuff"</p></article>'+
-      '<article id="persona-detail" class="col-9">'+
+      '<article id="persona-detail" class="col-6">'+
         '<div class="col-8 list-style">'+
           '<h1>BIO</h1>'+
           '<ul>'+
@@ -170,7 +169,7 @@ var discovery_feature_content =
           '<ul>'+
           '<li>Find clothing that she is looking for a certain occasion.</li>'+
           '<li>To see if what she liked is on sale.</li></ul></div>'+
-      '<div class="col-4 range"><img src="img/GT/busyAnalytics.png"></div>'+
+      // '<div class="col-4 range"><img src="img/GT/busyAnalytics.png"></div>'+
       '</article></div>';
 var scope_header =' <h4>The Scope</h4><h1>Feature set</h1>'+
  '<p>Below are the final features that I came up with, after iteratively testing the feature ideas with customers. This process helped us weed out not-so-important features and concentrate on what customers needed.</p>';

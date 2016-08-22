@@ -25,8 +25,12 @@ function openNav() {
   
 }
 
-function closeNav() {
+ function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("dropdown").checked = false;
 }
+  
+
+
 
 
