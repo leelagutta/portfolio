@@ -132,7 +132,7 @@ input[id^="dropdown"]:checked + ul[class^="dropdown"] {
     z-index: 1;
     top: 0;
     right: 0;
-    background-color: white;
+    background-color: black;
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;

@@ -1,6 +1,6 @@
 (function(){
 
-  var parallax = document.querySelectorAll(".banner"),
+  var parallax = document.querySelectorAll(".full-background"),
       speed = 0.5;
 
   window.onscroll = function(){
@@ -15,4 +15,3 @@
   };
 
 })();
-

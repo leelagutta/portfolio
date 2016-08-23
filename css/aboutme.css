@@ -14,10 +14,12 @@ h1{
   padding-left: 20vw;
 }
 
-.aboutme{
-  /*padding-left:5vw!important;*/
-}
-
 .content-padding{
    padding:20vh 10vw 15vh 7vw !important;
+}
+
+.full-background{
+	 background-image: url("../img/s.png");
+	 background-repeat:round;
+	 opacity: 0.9;
 }
