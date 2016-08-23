@@ -1,4 +1,13 @@
 .grid-container{
-	 background-image: url("../img/s.png");
-	 background-repeat:round;
+background-image: url("../img/background.png");
+background-repeat:no-repeat;
+-webkit-background-size:cover;
+-moz-background-size:cover;
+-o-background-size:cover;
+background-size:cover;
+background-position:center;
+}
+
+ h1,h2,h3,h4,p,a, label{
+   color:white !important;
 }

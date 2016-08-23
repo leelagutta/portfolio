@@ -19,7 +19,11 @@ h1{
 }
 
 .full-background{
-	 background-image: url("../img/s.png");
-	 background-repeat:round;
-	 opacity: 0.9;
+	background-image: url("../img/m.jpg");
+background-repeat:no-repeat;
+-webkit-background-size:cover;
+-moz-background-size:cover;
+-o-background-size:cover;
+background-size:cover;
+background-position:center;
 }
