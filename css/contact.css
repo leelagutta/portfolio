@@ -22,7 +22,7 @@ a{color: white;}
 
 @media (min-width: 310px) and (max-width: 699px) { 
   .content-padding{padding-top: 20vh!important;}
-  .contact-card{padding: 15vh 10vw 15vh 10vw;}
+  .contact-card{padding: 10vh 10vw 10vh 10vw;}
   .contact-details{padding-top: 1vh;}
   .logo{padding-top: 3vh;}
 }
