@@ -81,6 +81,7 @@ img{
   position: absolute;
 }
 
+a{text-decoration: none;}
 /*----------------------screen ranging from 320px to 699px----------------------------------*/
 
 @media (min-width: 310px) and (max-width: 699px) { 

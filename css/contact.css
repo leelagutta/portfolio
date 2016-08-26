@@ -1,29 +1,34 @@
 
 .contact-card{
-	background-color: #1A1E23;
-	/*width: 60vh;*/
-	/*height:45vh;*/
 	text-align: center;
-	padding: 10vh 5vw 5vh 5vw;
-	/*margin-left:20vw;*/
-	text-transform: uppercase;
-	color: white;
+	padding: 15vh 20vw 10vh 20vw;
+	color: #F3F5F6;
+	background-image: url("../img/home/3.jpg");
+	background-repeat:repeat;
+    background-size:contain;
 }
 
-a{
-	text-decoration: none;
-	color: white;
+.message{padding-top: 3vh;}
+
+.contact-details{padding-top: 3vh;}
+
+.back{background-color: black;opacity: 0.8;}
+
+.content-padding a:hover{color:green;}
+
+.content-padding{padding-bottom: 0!important;}
+
+a{color: white;}
+
+@media (min-width: 310px) and (max-width: 699px) { 
+  .content-padding{padding-top: 20vh!important;}
+  .contact-card{padding: 15vh 10vw 15vh 10vw;}
+  .contact-details{padding-top: 1vh;}
+  .logo{padding-top: 3vh;}
 }
 
-.content-padding a:hover{
-	color:whitesmoke;
-}
+@media (min-width: 700px) and (max-width: 1023px) {
+  .content-padding{padding-top: 20vh!important;}
+  .contact-card{padding: 15vh 20vw 15vh 20vw;}
+}	
 
-.content-padding{
-	  padding:10vh 30vw 5vh 30vw!important;
-	  text-align: center;
-}
-
-footer{
-	background-color: #1A1E23!important;
-}
